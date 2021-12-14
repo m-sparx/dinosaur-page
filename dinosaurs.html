@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dino.css">
+    <title>Dinosaurs</title>
+  </head>
+  <body>
+    <h1>Dinosaurs according to Los Ninos</h1>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/951/original/pngwing.com.png?1635447393"
+      alt="Family of dinosaurs"
+    />
+    <h2>💖 🦖 For Benji, Emanuel, and Tony 🦖 💖</h2>
+    <hr />
+    <ol>
+      <li>
+        "Los dinosaurs tienen dientes grandes." <br />
+        -Benji
+      </li>
+      <br />
+      <li>
+        "Dinosaurs make good memes." <br />
+        -Emanuel
+      </li>
+      <br />
+      <li>
+        "They're so old." <br />
+        -Tony
+      </li>
+    </ol>
+
+    <p>
+      Here we have gathered a few memorable quotes about dinosaurs from Benji,
+      Emanuel and Tony. These boys have been long time dinosaur stans ever since
+      they discovered that dinosaurs exist. All of the details presented here on
+      this page have been delightfully contributed by these dinosaur
+      aficionados.
+    </p>
+    <p class="disclaimer">
+      ⚠️
+      <em>
+        Disclaimer: None of the information contained in this page has been
+        verified to be factual. <a
+          href="https://www.nhm.ac.uk/discover/what-are-dinosaurs.html">Click here</a to learn about dinosaurs.
+        > to learn about dinosaurs.
+      </em>
+    </p>
+    <hr />
+    <!--this is an invisible comment-->
+    <span class="learnMore">
+      Click the <strong>RAWWR!</strong> below to sign up for daily dinosaur facts.
+    </span>
+    <br />
+    <button>RAWWR!🦖</button>
+    <br />
+    <div>This page was coded using HTML, CSS, and JavaScript by Maria 💁</div>
+    <script>
+        function redirect() {
+        let name=prompt("What is your name?");
+        let age= prompt("What is your age?");
+        if (age <=17) {
+            alert("🦖 Dino-tastic " + name + "!");
+        } else {
+            alert ("Sorry " + name + " you're too old.");
+        }
+        }
+         let redirectLink= document.querySelector("button");
+      redirectLink.addEventListener("click", redirect);
+    </script>
+  </body>
+</html>
